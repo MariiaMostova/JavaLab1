@@ -36,11 +36,11 @@ public class Student {
 	}
 
 	public String toString() {
-		return "First name of the student: " + this.firstName + ". " + "\n" + "Last name of the student: "
-				+ this.lastName + "." + "\n" + "Number of student`s rating: " + this.rating + ". " + "\n"
-				+ "Height it the student: " + this.height + ". " + "\n" + "Age ot the student -- " + this.getAge()
-				+ ". " + "\n" + "Hobby of the student: " + this.getHobby() + ". " + "\n" + "Adress of the student: "
-				+ this.address + ". " + "\n" + "Favorite color of the student is " + this.favoriteColor + ". ";
+		return "First name of the student: " + firstName + ". " + "\n" + "Last name of the student: "
+				+ lastName + "." + "\n" + "Number of student`s rating: " + rating + ". " + "\n"
+				+ "Height it the student: " + height + ". " + "\n" + "Age ot the student -- " + age
+				+ ". " + "\n" + "Hobby of the student: " + hobby + ". " + "\n" + "Adress of the student: "
+				+ address + ". " + "\n" + "Favorite color of the student is " + favoriteColor + ". ";
 	}
 
 	public static void printStaticCourse() {
