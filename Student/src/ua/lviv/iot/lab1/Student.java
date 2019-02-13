@@ -4,15 +4,15 @@ public class Student {
 
 	private static int course = 1;
 
+	protected String address;
+	protected String favoriteColor;
+	
 	private String firstName;
 	private String lastName;
 	private int rating;
 	private int height;
 	private int age;
 	private String hobby;
-
-	protected String address;
-	protected String favoriteColor;
 
 	Student(String firstName, String lastName, int rating, int height, int age, String hobby, String address,
 			String favoriteColor) {
